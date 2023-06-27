@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body {
+  width: 1024px;
+}
+.header{
+  background-image: url('Header.jpg');
+  background-size: cover;
+  text-align: center;
+  font-family: 'Righteous';
+  padding: 100px;
+}
+h1{
+  font-size: 60px;
+  color: white;
+}
+h2{
+  padding:40px;
+  color:white;
+  font-size: 20px;
+}
+img {
+  width: 300px;
+  border-radius: 10px;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+p{
+  width: 500px;
+  padding-right: 20px;
+  padding-left:20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.name{
+  font-family: 'Righteous';
+  font-size: 30px;
+}
+.about-text{
+  font-size: 25px;
+}
+h3{
+  font-family: 'Righteous';
+  text-align: center;
+  padding: 20px;
+  border-bottom: 4px solid black;
+  font-size: 25px;
+}
+a{
+  color: white;
+  
+}
