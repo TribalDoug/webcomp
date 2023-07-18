@@ -1,10 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 body {
   width: 1024px;
 }
 .header{
-  background-image: url('Header.jpg');
+  background-image: url('top-image.jpg');
   background-size: cover;
   text-align: center;
   font-family: 'Righteous';
@@ -22,32 +22,56 @@ h2{
 img {
   width: 300px;
   border-radius: 10px;
+  text-align: right;
   vertical-align: middle;
   margin-top: 20px;
   margin-bottom: 20px;
+  display: inline-block;
 }
 p{
+  text-align: center;
+  font-family: 'Roboto Slab';
+  font-size: 18px;
+  display: inline-block;
+}
+.name{
+  font-family: 'Righteous';
+  width:500px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 90px;
+}
+.cost{
+  font-family: 'Roboto Slab';
+  width:500px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+
+}
+.about-text{
+  font-size: 20px;
   width: 500px;
   padding-right: 20px;
   padding-left:20px;
   display: inline-block;
   vertical-align: middle;
 }
-.name{
-  font-family: 'Righteous';
-  font-size: 30px;
-}
-.about-text{
-  font-size: 25px;
-}
 h3{
   font-family: 'Righteous';
   text-align: center;
   padding: 20px;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid green;
   font-size: 25px;
 }
 a{
   color: white;
-  
+}
+h4{
+  display: inline-block;
+  width: 250px;
+  font-family: 'Roboto Slab';
 }
